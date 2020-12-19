@@ -42,8 +42,13 @@ body {
     position: absolute;
     top: 208px;
     left: -99px;
-    transform: translateY(-50%);
-    transition: transform 2s;
+    animation: 2s jumpingLoop alternate infinite;
+  }
+
+  @keyframes jumpingLoop {
+    to {
+      transform: translateY(-50%);
+    }
   }
 }
 
