@@ -28,6 +28,13 @@ body {
   margin-bottom: 230px;
 }
 
+.attribution {
+  text-align: center;
+  margin: 30px;
+}
+.attribution a {
+  color: orange;
+}
 @media screen and (min-width: 1040px) {
   .card {
     width: 975px;
